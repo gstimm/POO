@@ -1,0 +1,10 @@
+public class Condomino extends Pessoa {
+  public Condomino(String nome, String telefone, String cpf) {
+    super(nome, telefone, cpf);
+  }
+
+  @Override
+  byte nivelDeAcesso() {
+    return 1;
+  }
+}
